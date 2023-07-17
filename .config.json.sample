@@ -1,0 +1,16 @@
+{ "source": { 
+    "region": {
+        "edc": {"adminurl": "https://s3-admin.domain.com:19443", "adminpass": "xxx"},
+        "onenode": {"adminurl": "https://x.x.x.x:19443", "adminpass": "xxx"}
+    },
+  "provider": "cloudian"
+   },
+ "target": {
+  "region": {
+    "fracldhpc": {"adminurl": "https://x.x.x.x:19443", "adminpass": "xxx"},
+    "fracldxpc": {"adminurl": "https://s3-admin.domain.com:19443", "adminpass": "xxx"}
+},
+  "provider": "cloudian"
+ },
+"connectiontimeout": 3600,
+}
