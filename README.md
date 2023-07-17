@@ -1,5 +1,6 @@
 # prepare-migration
 This repo contains the scripts that helps the Bucket migration preperation.
+Version: 1.0
 
 # How to use the script
 
